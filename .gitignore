@@ -124,7 +124,14 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
-
+# SSH / deploy keys
+private
+private.pub
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
 # pnpm
 .pnpm-store
 
